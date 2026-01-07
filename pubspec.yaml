@@ -1,0 +1,35 @@
+my yaml is as:
+
+name: metadetect
+description: "MetaDetect: An offline, evidence-aligned breast cancer risk screening and education mobile application."
+publish_to: 'none'
+
+version: 1.0.0+10
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/ribbon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
